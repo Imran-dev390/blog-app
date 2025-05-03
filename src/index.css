@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "tailwindcss";
+
+.dark{
+    background-color: black;
+}
+.light{
+    background-color: white;
+}
+@media screen and (min-width: 1020px) {
+  
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* Corrected */
+    }
+  }
+  @media screen and (max-width: 697px) {
+  
+    .grid {
+      display: grid;
+      justify-content: center;
+      justify-items: center;
+      grid-template-columns: repeat(1, 1fr); /* Corrected */
+    }
+  }
