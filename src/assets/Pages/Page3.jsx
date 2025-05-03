@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Page3 = () => {
+const Page3 = ({darkMode}) => {
 
   return (
     <div className='parent w-full '>
@@ -9,7 +9,7 @@ const Page3 = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-10 justify-center items-centerr">
           <div className="journal">
             <h1 className='text-center'>Journal name</h1>
-            <div className="shadow-2xl  p-4  w-max">
+            <div className={darkMode !=true ? "shadow-2xl  p-4  w-max":"shadow-2xl  p-4  w-max bg-white text-black"}>
   <form className="flex items-center gap-3">
     <div className="row1 flex flex-col items-center gap-1">
       <span className="px-1 py-1 w-full text-center">ISSN</span>
@@ -61,7 +61,7 @@ const Page3 = () => {
 {/*2 JOURNAL DUV */}
 <div className="journal">
             <h1 className='text-center'>Journal name</h1>
-            <div className="shadow-2xl p-4   w-max">
+            <div className={darkMode !=true ? "shadow-2xl  p-4  w-max":"shadow-2xl  p-4  w-max bg-white text-black"}>
   <form className="flex items-center gap-3">
     <div className="row1 flex flex-col items-center gap-1">
       <span className="px-2 py-1 w-full text-center">ISSN</span>
@@ -111,7 +111,7 @@ const Page3 = () => {
 {/*  */}
 <div className="journal">
             <h1 className='text-center'>Journal name</h1>
-            <div className="shadow-2xl  p-4 w-max">
+            <div className={darkMode !=true ? "shadow-2xl  p-4  w-max":"shadow-2xl  p-4  w-max bg-white text-black"}>
   <form className="flex items-center gap-3">
     <div className="row1 flex flex-col items-center gap-1">
       <span className="px-2 py-1 w-full text-center">ISSN</span>
@@ -160,7 +160,7 @@ const Page3 = () => {
 </div>
 <div className="journal">
             <h1 className='text-center'>Journal name</h1>
-            <div className="shadow-2xl p-4   w-max">
+            <div className={darkMode !=true ? "shadow-2xl  p-4  w-max":"shadow-2xl  p-4  w-max bg-white text-black"}>
   <form className="flex items-center gap-3">
     <div className="row1 flex flex-col items-center gap-1">
       <span className="px-2 py-1 w-full text-center">ISSN</span>
@@ -209,7 +209,7 @@ const Page3 = () => {
 </div>
 <div className="journal">
             <h1 className='text-center'>Journal name</h1>
-            <div className="shadow-2xl p-4   w-max">
+            <div className={darkMode !=true ? "shadow-2xl  p-4  w-max":"shadow-2xl  p-4  w-max bg-white text-black"}>
   <form className="flex items-center gap-3">
     <div className="row1 flex flex-col items-center gap-1">
       <span className="px-2 py-1 w-full text-center">ISSN</span>
@@ -258,7 +258,7 @@ const Page3 = () => {
 </div>
 <div className="journal">
             <h1 className='text-center'>Journal name</h1>
-            <div className="shadow-2xl p-4   w-max">
+            <div className={darkMode !=true ? "shadow-2xl  p-4  w-max":"shadow-2xl  p-4  w-max bg-white text-black"}>
   <form className="flex items-center gap-3">
     <div className="row1 flex flex-col items-center gap-1">
       <span className="px-2 py-1 w-full text-center">ISSN</span>
